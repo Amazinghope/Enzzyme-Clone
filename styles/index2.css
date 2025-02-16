@@ -87,7 +87,7 @@ header {
 #hero-section {
   width: 100%;
   background-color: rgb(4, 50, 3);
-  padding-top: 30px;
+  padding-top: 100px;
   padding-bottom: 30px;
 }
 
@@ -97,6 +97,14 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+}
+
+h2{
+  font-size: 3.5em;
+}
+
+#hero-para{
+  font-size: 2rem;
 }
 
 .left {

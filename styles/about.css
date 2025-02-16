@@ -280,6 +280,7 @@ justify-content: space-around;
      text-align: center;
     }
 
+    
   
     #sec1 h3{
       text-align: left;
@@ -295,17 +296,53 @@ justify-content: space-around;
 
     }
 
-    #sec1 button {
-      flex-flow: column wrap ;
+    .hero-btn {
+      flex-flow: column;
      
       padding-left: 2%;
       margin-top: 4%;
     }
 
     #sec2-con{
+      width: 70%;
       flex-flow: column wrap;
     }
 
+    .left img{
+      
+      object-fit: contain;
+      
+    }
+
+
+    .right p{
+     
+      font-size: 1rem;
+      line-height: 90%;
+    }
+
+
+    #sec3 img{
+      width: 50%;
+      margin-left: 5%;
+    }
+    
+
+    .sec3-top{
+      
+      margin-top: -63px;
+    }
+
+    #sec3 h6{
+      text-align: left;
+      font-size: 2rem;
+      margin-left: 5%;
+    }
+    #sec3 p{
+      text-align: left;
+      margin-left: 5%;
+      font-size: 0.8rem;
+    }
 
     #sec7-con{
       flex-flow: column wrap;

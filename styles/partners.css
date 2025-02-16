@@ -89,7 +89,7 @@ header {
   padding-top: 190px;
   padding-bottom: 200px;
   text-align: center;
-  background: linear-gradient(rgba(4,50,3,0.75), rgba(4,50,3,0.75)),
+  background: linear-gradient(rgba(4,50,3,0.85), rgba(4,50,3,0.75)),
   url(../assets/images/aboutGroup.svg);
   background-size: cover;
   background-position: center;
