@@ -5,11 +5,27 @@
   padding: 0;
 }
 
+.fa-fa-bars{border: 1px solid gray;
+  border-radius: 5px;
+
+
+}
+
+.fa-arrow-right{
+  border: 1px solid gray;
+  border-radius: 5px;
+
+}
+
 body {
   font-family: "Work Sans", serif;
 }
 
 /* header styling */
+
+header img{
+  padding-left: 5%;
+}
 
 header {
   background-color: white;
@@ -21,6 +37,7 @@ header {
   padding-top: 15px;
   padding-bottom: 15px;
   position: fixed;
+ 
 }
 
 #menu-icon {
@@ -35,6 +52,8 @@ header {
   display: flex;
   list-style-type: none;
   gap: 30px;
+  
+
 }
 
 .nav-link a {
@@ -256,7 +275,7 @@ header {
 /* Section 4*/
 
 #hero-sec4{
-  width: 99.8%;
+  width: 100%;
   height: auto;
   margin-top: 30px;
   padding-bottom: 30px;        
@@ -326,14 +345,164 @@ header {
 /* Section 5*/
 
 #sec-5{
-  width: 99.8%;
+  width: 100%;
   /* height: auto; */
-  margin-top: 5px;
+  margin-top: -5px;
   padding-bottom: 40px;        
-  background: bisque;
+  background: rgb(204, 223, 225);
+  
+  
+  padding-top: 70px;
+}
 
+#sec5-con{
+  width: 95%;
+  display: flex;
+  
+}
+
+.sec5-left{
+  width: 38%;
+  margin-left: 18%;
 
 }
+
+
+
+
+.sec5-right{
+  width: 45%;
+ 
+  
+}
+.sec5-right h4{
+  font-size: 2.5em;
+  padding-top: 5%;
+    
+
+}
+
+.sec5-right p{
+  font-size: 1.3em;
+  font-weight: 1px;
+  padding-top: 5%;
+  color: rgb(93, 91, 91);
+}
+
+.sec5-p a{
+  text-decoration: none;
+  color: #00c821;
+}
+
+/* Section-6*/
+#sec-6{
+  width: 100%;
+  background-color: rgb(5, 79, 4);
+  padding-top: 80px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#sec6-con{
+  width: 100%;
+  display: flex;
+  
+}
+
+.sec6-left{
+display: flex;
+margin: auto;
+flex-flow: row nowrap;
+gap: 10px;
+
+  }
+
+.sec6-left input{
+  
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  
+  
+ 
+  }
+
+.sub-btn{
+  
+  width: 40%;
+
+  background-color: #b0f8bc;
+  
+
+  border-radius: 10px;
+  
+ 
+  /* padding-right: 6%; */
+ 
+}
+
+
+.sec6-right{
+  width: 55%;
+  color: white;
+  padding-left: 80px;
+  
+}
+
+.sec6-right h6{
+  font-size: 2em;
+  
+}
+.sec6-right p{
+  padding-top: 10px;
+  font-size: 1.1em;
+}
+
+/* Footer Section*/
+#footer-sec7{
+  width: 100%;
+  background-color: rgb(2, 31, 1);
+  color: white;
+  padding-bottom: 90px;
+  
+  
+}
+
+#sec7-con{
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  margin-left: 3%;
+  justify-content: space-around;
+}
+
+#sec7-con a{
+  text-decoration: none;
+  color: white;
+}
+
+#sec7-con ul{
+  list-style-type: none;
+}
+
+.footer-h{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.copywrite{
+  text-align: center;
+  color: rgb(161, 157, 157);
+  font-size: 1.2em;
+  
+
+}
+
+
+
+
+
 
 
 
@@ -477,6 +646,51 @@ header {
   border: none;
   margin-bottom: 10%;
 }
+
+
+#sec5-con{
+  
+  flex-flow: column wrap;
+  
+}
+
+.sec5-right{
+  width: 100%;
+  /* font-size: 80%; */
+
+  
+  margin-left: 6%;
+ 
+}
+
+
+.sec5-left{
+  width: 38%;
+  margin-left: 10%;
+
+}
+
+#sec6-con{
+  flex-flow: column wrap;
+  /* display: block; */
+}
+
+.sec6-left{
+  padding-top: 28px;
+  margin-left: 30px;
+  
+}
+
+.sec6-right{
+  margin-left: -10%;
+}
+
+
+#sec7-con{
+  flex-flow: column wrap;
+  line-height: 30px;
+}
+
 
 
 .oL{
