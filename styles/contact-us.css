@@ -5,10 +5,9 @@
   padding: 0;
 }
 
-.fa-arrow-right{
+.fa-arrow-right {
   border: 1px solid gray;
   border-radius: 5px;
-
 }
 
 body {
@@ -17,7 +16,7 @@ body {
 
 /* header styling */
 
-header img{
+header img {
   padding-left: 5%;
 }
 
@@ -31,7 +30,6 @@ header {
   padding-top: 15px;
   padding-bottom: 15px;
   position: fixed;
- 
 }
 
 #menu-icon {
@@ -46,8 +44,6 @@ header {
   display: flex;
   list-style-type: none;
   gap: 30px;
-  
-
 }
 
 .nav-link a {
@@ -79,8 +75,8 @@ header {
 
 /* Section 1*/
 
-#sec1{
-  background-color: rgb(124, 241, 191);
+#sec1 {
+  background-color: red;
 }
 #sec1-con {
   padding-top: 190px;
@@ -88,19 +84,18 @@ header {
   text-align: center;
 }
 
-#sec1-con h1{
+#sec1-con h1 {
   font-size: 5em;
   padding-bottom: 15px;
 }
-#sec1-con p{
+#sec1-con p {
   font-size: 20.7px;
   color: rgb(102, 99, 99);
-  
 }
 
 /* Section 2*/
 
-#sec2{
+#sec2 {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
@@ -109,51 +104,45 @@ header {
   margin-top: -130px;
   border-radius: 17px;
   box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2);
-  
-  
 }
 
-#sec2-con{
-  width: 100%;   
+#sec2-con {
+  width: 100%;
   display: flex;
 }
 
-.left{
-  width:50% ;
-  padding-left: 60px;   
+.left {
+  width: 50%;
+  padding-left: 60px;
 }
 
-.p1{
+.p1 {
   font-size: 1.5em;
   font-weight: bold;
 }
-.p2{
+.p2 {
   padding-top: 5px;
   font-size: 1.2rem;
   line-height: 2em;
 }
-.left p{
+.left p {
   line-height: 2em;
-  
 }
 
-.left input{
+.left input {
   padding-top: 18px;
   padding-bottom: 18px;
   width: 96%;
- 
-  /* border-color: rgb(235, 233, 233); */
 
+  /* border-color: rgb(235, 233, 233); */
 }
 
- input::placeholder{
+input::placeholder {
   padding-left: 10px;
   font-size: 16px;
- }
+}
 
-
-
-.left textarea{
+.left textarea {
   width: 95%;
   height: 75px;
   color: rgb(123, 119, 119);
@@ -161,10 +150,9 @@ header {
   padding-top: 15px;
   font-size: 16px;
   border-color: rgb(216, 212, 212);
-
 }
 
-.left-btn input{
+.left-btn input {
   width: 96%;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -173,35 +161,30 @@ header {
   border-radius: 28px;
   color: white;
   font-size: 1.2em;
- 
-
 }
 
-.left-btn input:hover{
+.left-btn input:hover {
   background-color: #00c853;
-  
 }
 
-span{
+span {
   color: red;
 }
 
-.right img{
+.right img {
   width: 100%;
   border-radius: 17px;
 }
 
 /* Footer Section*/
-#footer-sec7{
+#footer-sec7 {
   width: 100%;
   background-color: rgb(2, 31, 1);
   color: white;
   padding-bottom: 90px;
-  
-  
 }
 
-#sec7-con{
+#sec7-con {
   padding-top: 45px;
   padding-bottom: 45px;
   display: flex;
@@ -209,88 +192,79 @@ span{
   justify-content: space-around;
 }
 
-#sec7-con a{
+#sec7-con a {
   text-decoration: none;
   color: white;
 }
 
-#sec7-con ul{
+#sec7-con ul {
   list-style-type: none;
 }
 
-.footer-h{
+.footer-h {
   font-size: 1.3em;
   font-weight: bold;
 }
-.copywrite{
+.copywrite {
   text-align: center;
   color: rgb(161, 157, 157);
-  font-size: 1.2em; 
-
+  font-size: 1.2em;
 }
 
 /* responsive design  */
 
 @media (max-width: 800px) {
-  header{
-   position: fixed;
-  width: 100%;
+  header {
+    position: fixed;
+    width: 100%;
   }
- 
-   #menu-icon,
-   #cancel-icon {
-     display: block;
-     cursor: pointer;
-   }
- 
-   #cancel-icon {
-     position: absolute;
-     right: 15px;
-     top: 10px;
-     font-weight: lighter;
-   }
- 
-   nav {
-     background-color: white;
-     width: 85%;
-     position: absolute;
-     right: 0;
-     left: 0;
-     top: 70px;
-     margin: auto;
-     border-radius: 15px;
-     padding: 20px;
-     display: none;
-   }
- 
-   #nav-ul {
-     gap: 30px;
-     flex-direction: column;
-     text-align: center;
-   }
 
-   #sec1-con h1{
+  #menu-icon,
+  #cancel-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  #cancel-icon {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-weight: lighter;
+  }
+
+  nav {
+    background-color: white;
+    width: 85%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 70px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+    display: none;
+  }
+
+  #nav-ul {
+    gap: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #sec1-con h1 {
     font-size: 1.7em;
     text-align: left;
     padding-left: 25px;
-
-   
-    
-    
   }
-  #sec1-con p{
+  #sec1-con p {
     font-size: 18px;
     text-align: left;
     padding-left: 25px;
-
-
-    
   }
-  
+
   /* Section 2*/
-  
-  #sec2{
-    
+
+  #sec2 {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -298,47 +272,30 @@ span{
     margin-top: -130px;
     border-radius: 17px;
     box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2);
-    
-    
   }
-  
-  
-  
-  .left{
-    width:100% ;
-    padding-left: 1px;   
+
+  .left {
+    width: 100%;
+    padding-left: 1px;
   }
-  
-  .p1{
+
+  .p1 {
     font-size: 1.5em;
     font-weight: bold;
   }
-  .p2{
+  .p2 {
     font-size: 1rem;
     line-height: 2em;
   }
-  .left p{
+  .left p {
     line-height: 2em;
+  }
 
-    
-  }
-  
-  .right img{
+  .right img {
     display: none;
-    
   }
-  #sec7-con{
+  #sec7-con {
     flex-flow: column wrap;
     line-height: 30px;
   }
-  
-   
-
-
-  }
-
-
- 
-
-
-
+}
