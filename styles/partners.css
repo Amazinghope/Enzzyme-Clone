@@ -111,9 +111,10 @@ header {
 }
 
 #sec1-con p{
-  font-size: 1.1em;
+  font-size: 1em;
+  text-align-last: justify;
   padding-bottom: 0.7%;
-  line-height: 30px;
+  /* line-height: 30px; */
   margin-bottom: 1.5%;
   
 }
