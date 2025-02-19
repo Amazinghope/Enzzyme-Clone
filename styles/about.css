@@ -5,15 +5,19 @@
   padding: 0;
 }
 
-.fa-fa-bars{border: 1px solid gray;
+.fa-fa-bars{
+  border: 1px solid gray;
   border-radius: 5px;
 
 
 }
 
+
+
 .fa-arrow-right{
   border: 1px solid gray;
   border-radius: 5px;
+  
 
 }
 
@@ -100,6 +104,10 @@ header {
 
 
 #sec1-con {
+  justify-content: center;
+  width: 90%;
+  height: 300%;
+  margin-top: -5%;
   color: white;   
 }
 
@@ -115,72 +123,104 @@ header {
 }
 
 
-#hero-btn1 {
+#btn1 {
   background-color: white;
   border-radius: 30px;
-  padding: 14px 22px;
+  padding: 14px 34px;
   border: none;
+  width: 20%;
+  
   
 }
 
-.hero-btn{
+#btn1 a{
+  color: green;
+}
+
+#btn1 a:hover{
+  color: white;
+}
+
+
+
+
+.button{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
   margin-top: 1.2%;
-  
+  gap: 2em; 
+  /* width: 100%; */
+
 }
 
-#hero-btn2 {
+
+
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+#btn2 {
   background-color: inherit;
   color: white;
   border-radius: 30px;
   padding: 14px 34px;
   border: 2px solid white;
-  margin-left: 2%;
+  
+  width: 20%;
 }
 
-.hero-btn:hover {
+
+.btn:hover {
   cursor: pointer;
   background-color: #00c853 !important;
   color: white;
 }
 
 #sec2{
- width: 90%;
- 
- padding: 45px 45px;
- margin-left: auto;
- margin-right: auto;
- 
+ width: 93%;
+ justify-content: center;
+ padding: 45px 15px;
 }
 
 #sec2-con{
-width: 90%;
+width: 100%;
 display: flex; 
-justify-content: space-around;
+margin-left: 2%;
+justify-content: center;
+justify-content: space-between;
 
 }
 
 .left{
-  width: 50%;
-}
-.left img{
-  width: 100%;
+  width: 100%; 
 
 }
+
+.left img{
+  width: 90%;
+}
+
+
+
 
 .right{
-  width: 60%;
+  width: 100%;
   padding-top: 60px;
-  margin-left: 65px;
+  
+
+  
   /* line-height: 30px; */
   
 }
 .right h5{
-  font-size: 2.5em;
+  font-size: 2em;
   padding-bottom: 5px;
 }
 
 .right p{
-  
+  line-height: 1.5em;
   font-size: 1rem;
 }
 
@@ -198,11 +238,15 @@ justify-content: space-around;
 }
 #sec3 h6{
   font-size: 3em;
+  padding-top: 2%;
+  padding-bottom: 2%;
 
 }
 #sec3 p{
-  font-size: 1.2em;
-  line-height: 30px;
+  /* text-align-last:justify ; */
+  font-size: 1rem;
+  padding-bottom: 5%;
+
 }
 
 /* Footer Section*/
@@ -211,6 +255,7 @@ justify-content: space-around;
   background-color: rgb(2, 31, 1);
   color: white;
   padding-bottom: 90px;
+  line-height: 2em;
   
   
 }
@@ -244,6 +289,136 @@ justify-content: space-around;
 }
 
 /* responsive design  */
+
+@media (max-width:1100){
+  header{
+    position: fixed;
+   
+   }
+  
+    #menu-icon,
+    #cancel-icon {
+      display: block;
+      cursor: pointer;
+    }
+  
+    #cancel-icon {
+      position: absolute;
+      right: 15px;
+      top: 10px;
+      font-weight: lighter;
+    }
+  
+    nav {
+      background-color: white;
+      width: 85%;
+      position: absolute;
+      right: 0;
+      left: 0;
+      top: 70px;
+      margin: auto;
+      border-radius: 15px;
+      padding: 20px;
+      display: block;
+    }
+  
+    #nav-ul {
+      gap: 30px;
+      flex-direction: column;
+      text-align: center;
+     }
+ 
+     #sec1-con{
+       width: 98%;
+       margin-top: 3%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+ 
+     
+   
+     #sec1 h3{
+       text-align: left;
+       margin-top: 2px;
+       font-size: 1.5em;
+     }
+ 
+     #sec1 p{
+       text-align: left; 
+       font-size: 0.7em;
+       line-height: 2em;
+       margin-top: 2px;
+       width: 100%;
+ 
+ 
+     }
+ 
+        
+     #btn1, #btn2{
+       width: 35%;
+     }
+     
+     
+     
+     
+     .button{
+       flex-flow: column wrap;
+       align-items: center;
+       justify-content: center;
+       margin-left: 2%;
+       margin-top: 4%;
+       gap: 0.7em;
+       
+     
+     }
+ 
+ 
+     #sec2-con{
+       width: 100%;
+       flex-flow: column wrap;
+     }
+ 
+     #sec2-con{
+       width: 100%;
+     }
+ 
+ 
+     .right p{
+      
+       font-size: 1rem;
+       line-height: 90%;
+     }
+ 
+ 
+     #sec3 img{
+       width: 50%;
+       margin-left: -15%;
+     }
+     
+ 
+     .sec3-top{
+       
+       margin-top: -63px;
+     }
+ 
+     #sec3 h6{
+       text-align: left;
+       font-size: 2rem;
+       margin-left: 5%;
+     }
+     #sec3 p{
+       text-align: left;
+       margin-left: 5%;
+       font-size: 0.8rem;
+     }
+ 
+     #sec7-con{
+       flex-flow: column wrap;
+       line-height: 30px;
+     }
+ 
+}
+
 
 @media (max-width: 800px) {
   header{
@@ -283,37 +458,62 @@ justify-content: space-around;
      text-align: center;
     }
 
+    #sec1-con{
+      width: 98%;
+      margin-top: 3%;
+      justify-content: center;
+      
+      /* margin-left: auto;
+      margin-right: auto; */
+    }
+
     
   
     #sec1 h3{
       text-align: left;
-      padding-left: 6%;
+      margin-top: 2px;
       font-size: 1.5em;
+  
     }
 
-    #sec1 p{text-align: start;
-      padding-left: 3%;
-      font-size: 1em;
-      line-height: 90%;
-      width: 80%;
+    #sec1 p{
+      text-align: left; 
+      font-size: 0.7em;
+      line-height: 2em;
+      margin-top: 2px;
+      width: 100%;
+      
+
 
     }
 
-    .hero-btn {
-      flex-flow: column;
-     
-      padding-left: 2%;
+       
+    #btn1, #btn2{
+      width: 35%;
+    }
+    
+    
+    
+    
+    .button{
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: center;
+      margin-left: 2%;
       margin-top: 4%;
+      gap: 0.7em;
+      
+    
     }
+
 
     #sec2-con{
-      width: 70%;
+      width: 100%;
       flex-flow: column wrap;
     }
 
-    .left img{
-      
-      object-fit: contain;
+    #sec2-con{
+      width: 80%;
       
     }
 
@@ -322,12 +522,14 @@ justify-content: space-around;
      
       font-size: 1rem;
       line-height: 90%;
+      
     }
 
+    
 
     #sec3 img{
       width: 50%;
-      margin-left: 5%;
+      margin-left: -15%;
     }
     
 
@@ -351,6 +553,18 @@ justify-content: space-around;
       flex-flow: column wrap;
       line-height: 30px;
     }
+
+    .oL{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* z-index: 5; */
+
+}
+
     
   }
 

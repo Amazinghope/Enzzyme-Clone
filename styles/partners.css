@@ -88,7 +88,7 @@ header {
 #sec1{
   padding-top: 190px;
   padding-bottom: 200px;
-  text-align: center;
+  
   background: linear-gradient(rgba(4,50,3,0.85), rgba(4,50,3,0.75)),
   url(../assets/images/aboutGroup.svg);
   background-size: cover;
@@ -100,6 +100,7 @@ header {
 
 
 #sec1-con {
+  text-align: center;
   color: white; 
    
 }
@@ -111,10 +112,10 @@ header {
 }
 
 #sec1-con p{
-  font-size: 1em;
-  text-align-last: justify;
+  font-size: 13px;
+  
   padding-bottom: 0.7%;
-  /* line-height: 30px; */
+  line-height: 30px;
   margin-bottom: 1.5%;
   
 }
@@ -178,11 +179,13 @@ margin-right: auto;
 .p1{
     font-size: 1.5rem;
     font-weight: bold;
+    padding-top: 3%;
 }
 
 .p2{
     font-size: 1.2rem;
     color: gray;
+    padding-top: 3%;
 }
 
 #sec2-con a{
@@ -195,6 +198,7 @@ margin-right: auto;
     background-color: rgb(2, 31, 1);
     color: white;
     padding-bottom: 90px;
+    line-height: 2em;
     
     
   }
@@ -293,11 +297,55 @@ margin-right: auto;
       flex-flow: column wrap;
     }
 
+    #sec2 h6{
+      font-size: 1.5rem;
+    }
+
+    .container{
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: auto;
+      /* padding: 50px 80px; */
+      width: 20%;
+      justify-content: space-around;
+  }
+
+  .p1{
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+.p2{
+    font-size: 0.8rem;
+    color: gray;
+    padding-top: 3%;
+    
+}
+
+  #sec2 img{
+    width: 260%;
+  }
+
+
+
 
     #sec7-con{
       flex-flow: column wrap;
       line-height: 30px;
     }
+
+    .oL{
+      position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        /* z-index: 5; */
+    
+    }
+    
     
   }
 
